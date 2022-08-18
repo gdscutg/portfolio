@@ -144,14 +144,14 @@ section h2 {
 [skill] [bar] {
   background-color: lightgrey;
   border-radius: 8px;
-  height: 16px;
+  height: 8px;
   margin-bottom: 24px;
 }
 
 [skill] [level] {
   background-color: #33b679;
   border-radius: 8px 0 0 8px;
-  height: 16px;
+  height: 8px;
 }
 
 [project] [know-more] {
