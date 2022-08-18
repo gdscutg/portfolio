@@ -1,6 +1,11 @@
 const contactForm = document.querySelector('form[contact]');
 const menuIcon = document.querySelector('[menu-icon]');
 const nav = document.querySelector('nav');
+let date = document.querySelector('.date');
+
+let currentDate = new Date();
+let currentYear = currentDate.getFullYear();
+date.innerHTML = currentYear;
 
 contactForm.addEventListener('submit', (event) => {
   event.preventDefault();
